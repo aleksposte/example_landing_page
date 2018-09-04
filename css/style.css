@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Acrom-bold;
+    src: url(../fonts/acrom800.otf);
+}
+
+@font-face {
+    font-family: Acrom;
+    src: url(../fonts/acrom400.otf);
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 450px;
+    background: url(../images/header_bg.png);
+    background-size: cover; /* растягивает фон*/
+}
+
+.top-line {
+    height: 85px;
+    /* background: #040407; */
+    /* opacity: 50%; */
+    background: rgba(3,4,5);
+    padding: 40px 0;
+}
+
+.logo {
+
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.phone {
+    color: #fff;
+    font-size: 23px;
+    font-family: Acrom;
+    float: right;
+}
+
+.callback {
+    background: none;
+    color: #fff;
+    border: 1px solid #0180b2;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 9px;
+    font-family: Acrom;
+    float: right;
+    margin-top: 30px;
+    margin-left: 20px;
+}
