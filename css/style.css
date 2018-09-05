@@ -13,6 +13,10 @@
     src: url(../fonts/acrom400.otf);
 }
 
+body {
+    font-family: Acrom;
+}
+
 .wrap {
     width: 1024px;
     margin: 0 auto;
@@ -45,7 +49,6 @@ header {
 .phone {
     color: #fff;
     font-size: 23px;
-    font-family: Acrom;
     float: right;
 }
 
@@ -56,10 +59,54 @@ header {
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 9px;
-    font-family: Acrom;
     float: right;
     margin-top: 30px;
     margin-left: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 37px;
+    font-family: Acrom-bold;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #00a9ea;
+    font-size: 19px;
+    margin-bottom: 80px;
+}
+
+.main {
+    text-align: center;
+    padding: 90px 0 130px 0;
+}
+
+.register {
+    color: #fff;
+    font-size: 10px;
+    font-family: Acrom-bold;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    background: #ee6e22;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.callback-2 {
+    float: none;
+    position: relative;
+    left: -10px;
+}
+
+.collback-2 img {
+    width: 16px;
+}
+
+.callback span {
+    position: relative;
+    top: -5px;
 }
 
 /* body */
@@ -89,12 +136,12 @@ h3 {
     font-size: 42px;
     font-family: Acrom-bold;
     margin-bottom: 45px;
+    margin-left: -30px;
 }
 
 ul li {
     color: #00aaeb;
     font-size: 24px;
-    font-family: Acrom;
     margin-bottom: 15px;
-    text-transform: uppercase;
+    text-transform: uppercase; /* Заглавные */
 }
