@@ -32,9 +32,7 @@ header {
 
 .top-line {
     height: 85px;
-    /* background: #040407; */
-    /* opacity: 50%; */
-    background: rgba(3,4,5);
+    background: rgba(3,4,5, 0.5);
     padding: 40px 0;
 }
 
@@ -176,4 +174,39 @@ ul li {
 
 .clear {
     clear: both;
+}
+
+/* footer */
+
+footer {
+    background: url(../images/bg_3.png);
+    background-size: cover;
+    background-color: rgba(3,4,5, 0.9);
+    padding: 100px 0;
+    color: #fff;
+}
+
+.col-3 {
+    width: 33.333%;
+    float: left;
+}
+
+.callback-3 {
+    background: none;
+    color: #fff;
+    border: 1px solid #0180b2;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 9px;
+    /* margin-left: 40px; */
+    width: 150px;
+}
+
+footer label {
+    display: inline-block;
+    width: 100px;
+}
+
+footer p {
+    margin-bottom: 15px;
 }
