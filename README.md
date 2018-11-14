@@ -1,1 +1,3 @@
-# example_landing_page
+# Пример верстки
+
+Пример простой landing страницы.
